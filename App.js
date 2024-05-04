@@ -3,6 +3,7 @@ import { View, StyleSheet } from "react-native";
 import GoalInput from "./components/GoalInput";
 import GoalsList from "./components/GoalsList";
 
+
 export default function App() {
   const [courseGoals, setCourseGoals] = useState([]);
 
